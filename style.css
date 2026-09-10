@@ -1,12 +1,12 @@
-/* Variables de couleur inspirées de l'écosystème W3F Services */
+
 :root {
-    --bg-color: #0d131a; /* Fond ultra sombre bleuté */
-    --card-bg: #141d26; /* Couleur de carte */
+    --bg-color: #0d131a;
+    --card-bg: #141d26; 
     --text-color: #f1f5f9;
     --text-muted: #94a3b8;
-    --primary-color: #0a9396; /* Bleu canard signature W3F */
-    --primary-hover: #00b4d8; /* Cyan lumineux */
-    --accent-color: #2a9d8f; /* Teinte verte subtile pour statuts */
+    --primary-color: #0a9396; 
+    --primary-hover: #00b4d8; 
+    --accent-color: #2a9d8f; 
 }
 
 * {
@@ -23,7 +23,7 @@ body {
     line-height: 1.6;
 }
 
-/* Barre de Navigation */
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -66,7 +66,6 @@ body {
     color: var(--primary-hover);
 }
 
-/* Section Hero */
 .hero {
     min-height: 80vh;
     display: flex;
@@ -106,7 +105,6 @@ body {
     margin-bottom: 2.5rem;
 }
 
-/* Boutons */
 .cta-buttons {
     display: flex;
     gap: 1rem;
@@ -142,7 +140,6 @@ body {
     border-color: var(--primary-hover);
 }
 
-/* Sections Générales */
 .section-title {
     text-align: center;
     font-size: 2.5rem;
@@ -157,7 +154,6 @@ section {
     padding: 5rem 10%;
 }
 
-/* Section Compétences */
 .skills-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -186,7 +182,6 @@ section {
     margin-right: 0.5rem;
 }
 
-/* Section Projets */
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -291,7 +286,6 @@ section {
     color: var(--primary-hover);
 }
 
-/* Footer */
 footer {
     text-align: center;
     padding: 2rem;
